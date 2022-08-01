@@ -1,0 +1,520 @@
+@media all and (max-width: 1360px) {
+   .work__right img {
+    width: 95%;
+    }
+    .chats__left img {
+        width: 90%;
+    }
+    .d__Valera {
+        margin-bottom: 4%;
+    }
+}
+@media all and (max-width: 1100px) {
+   .h1 {
+    font-size: 50px;
+    line-height: 57px;
+   }
+   .store__right {
+    justify-content: start;
+    width: 30%;
+    flex-wrap: wrap;
+   }
+   .store__right a>img {
+    margin-right: 5px;
+   }
+   .chats {
+    margin: 50px 25px;
+   }
+   .ideal__title {
+    margin-bottom: 0;
+   }
+   .input {
+    padding: 1% 11% 1% 1%;
+   }
+   .header__button {
+    padding: 1.3% 5%;
+   }
+}
+
+@media all and (max-width: 947px) {
+    #save {
+        margin-left: -20%;
+    }
+    #get {
+        margin-left: 11%;
+    }
+    .header {
+        margin-top: 5%;
+    }
+    .h1 {
+        font-size: 39px;
+        line-height: 50px;
+    }
+    .store {
+        padding-right: 6%;
+    }
+    .list {
+        gap: 27px;
+    }
+}
+@media all and (max-width: 880px) {
+    #get {
+        margin-left: 16%;
+    }
+    .input {
+        padding: 1% 19% 1% 1%;
+    }
+}
+/* burger menu styles start */
+.burger-menu {
+    width: 80%;
+    height: 55%;
+    background-color: whitesmoke;
+    position: absolute;
+    z-index: 3;
+    display: none;
+    top: 22%;
+    right: 1%;
+    left: 10%;
+    border-radius: 10px;
+    border: 2px solid #81C43B;
+}
+.burger-menu__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger-menu__btn_close {
+    width: 5.%;
+    height: 16%;
+    margin: 2% 0;
+    cursor: pointer;
+}
+
+.burger-menu__input {
+    width: 30%;
+    height: 10%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+    
+.burger-menu__list {
+    height: 60%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.burger-menu__item>a {
+    text-decoration: none;
+    color: black;
+    transition: 0.8s;
+}
+
+.burger-menu__item>a:hover {
+    color: #5454D4;
+    transition: 0.8s;
+}
+
+@media all and (max-width: 780px) {
+    .list {
+        display: none;
+    }
+    .navbar__btn_burger {
+        display: block;
+        width: 6%;
+    }
+    .info-block {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .info-block__title {
+        width: 85%;
+        margin-bottom: 15px;
+    }
+    .info-block__btn {
+        width: 27%;
+        height: 45px;
+    }
+    .input {
+        padding: 1% 17% 1% 1%;
+    }
+    .custom__box {
+        width: 100%;
+    }
+    
+}
+/* burger menu styles end  */
+
+@media all and (max-width: 730px) {
+    .chats {
+        flex-direction: column;
+    }
+    .chats__right {
+        flex-direction: column;
+        margin-top: -22px;
+    }
+    #get {
+        margin-left: 21%;
+    }
+    .h1 {
+        font-size: 35px;
+    }
+    .input {
+        padding: 1% 13% 1% 1%;
+        margin-left: -12%;
+    }
+    .store__right {
+        width: 34%;
+    }
+    .footer__icons {
+        width: 25%;
+    }
+    .social__icon a>img {
+        width: 67%;
+    }
+}
+
+@media all and (max-width: 660px) {
+    .header h1 {
+        width: 75%; 
+    } 
+    .ideal__block {
+        margin-left: 6%;
+    }
+    .ideal__items {
+        width: 40%;
+    }
+    .work {
+        flex-direction: column-reverse;
+    }
+    .work__right img {
+        margin-left: 2.5%;
+        margin-top: 3%;
+    }
+    .work__left {
+        margin-top: -3%;
+    }
+    .custom__box {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .custom__item {
+        margin-left: 8%;
+    }
+    .custom__box:nth-child(3) {
+        justify-content: center;
+        margin-top: 2%;
+    }
+    .store {
+        margin-top: 6%;
+    }
+    .store__text {
+        margin-left: 0;
+        font-size: 26px;
+    }
+    #get {
+        margin-left: 23%;
+    }
+}
+@media all and (max-width: 610px) {
+    #get {
+        margin-left: 32%;
+    }
+    .store__right a>img {
+        width: 77%;
+    }
+    .social_list {
+        width: 97%;
+    }
+    .social__icon a>img {
+        width: 77%;
+    }
+}
+@media all and (max-width: 535px) {
+    .header h1 {
+        width: 80%;
+    }
+    .header__button {
+        right: 20%;
+        height: 100%;
+    }
+    .logo {
+        width: 15%;
+    }
+    .social {
+        margin-top: 5%;
+    }
+    .social__items {
+        flex-wrap: wrap;
+    }    
+}
+@media all and (max-width: 495px) {
+    #save {
+        margin-left: -25%;
+    }
+    #get {
+        margin-left: 36%;
+    }
+    .header h1 {
+        width: 85%;
+    }
+    .ideal__title {
+        font-size: 29px;
+    }
+    .ideal {
+        margin-top: 5%;
+    }
+    .ideal__block img {
+        margin-top: 27%;
+    }
+    .store__right {
+        margin-right: -14%;
+    }
+    .store__text {
+        font-size: 22px;
+    }
+    footer {
+        flex-wrap: wrap;
+    }
+    .footer__block_1 {
+        width: 20%;
+    }
+    .footer__icons {
+        width: 35%;
+    }
+   .custom__item {
+        width: 47%;
+   }
+   .custom__title {
+    font-size: 28px;
+    line-height: 34px;
+   }
+
+    .custom__p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 2%;
+    }
+    .d__Valera {
+    margin-left: 20%;
+    }
+}
+@media all and (max-width: 430px) {
+    .login {
+    width: 36%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    .log {
+        font-size: 13px;
+    }
+    .header {
+        margin-top: 15%;
+    }
+    .header h1 {
+        width: 100%;
+    }
+    #save {
+        margin-left: -33%;
+    }
+    .navbar__btn_burger {
+        width: 8%;
+    }
+    .logo {
+        width: 18%;
+    }
+    .header__button {
+        right: 13%;
+    }
+    .work__left h4 {
+        font-size: 22px;
+    }
+    .work__left {
+        margin-left: 36px;
+    }
+}
+
+@media all and (max-width: 385px) {
+#save {
+    margin-left: -40%;
+}
+.h1 {
+    font-size: 27px;
+    line-height: 40px;
+}
+.header p {
+    text-align: center;
+}
+.social_list {
+    padding: 0;
+}
+.social {
+    margin-top: 5%;
+}
+.social_list {
+    flex-wrap: wrap;
+}
+.social__icon {
+    width: 26%;
+    margin-top: 5%;
+    
+}
+.social__icon a>img {
+    width: 75%;
+}
+.social__title {
+    text-align: center;
+}
+.chats__left {
+    margin-top: 5%;
+}
+.chat__blocks {
+    margin-right: 8%;
+}
+.chats {
+    margin: 2% 0;
+}
+.ideal__items {
+    margin-left: 12%;
+    width: 85%;
+    margin-top: -12%;
+}
+.ideal {
+    margin-top: 11%;
+}
+.custom__title {
+    font-size: 22px;
+}
+.custom__p {
+    font-size: 13px;
+}
+.custom__icon {
+    width: 50%;
+}
+.custom__text {
+    margin-left: 2%;
+    width: 90%;
+}
+.custom__item {
+    width: 60%;
+}
+.store br {
+    display: none;
+}
+.store {
+    flex-direction: column;
+}
+.store__text {
+    margin: 2% 12%;
+    width: 90%;
+    line-height: 30px;
+}
+.store__right {
+    width: 70%;
+    flex-wrap: nowrap;
+    margin-left: 18%;
+}
+.store__icons {
+    width: 50%;
+}
+.footer__block_1, .footer__block_2, .footer__block_3 {
+    display: none;
+}
+
+.footer__mini {
+    display: flex;
+    width: 34%;
+}
+.mini__list {
+    padding: 0;
+}
+.mini__items {
+    font-size: 16px;
+    line-height: 50px;
+}
+.footer__block_4 {
+    align-items: center;
+}
+.footer__img {
+    width: 65%;
+    margin-left: 19%;
+}
+.footer_2 {
+   flex-direction: column;
+   align-items: center;
+}
+.footer__icons {
+    margin-top: 3%;
+    width: 48%;
+}
+}
+
+@media all and (max-width: 366px) {
+    #get {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .input {
+        font-size: 10px;
+    }
+    .header__button {
+        font-size: 12px;
+    }
+    .ideal__title {
+        font-size: 24px;
+    }
+    .log {
+        font-size: 11px;
+    }
+    #save {
+        font-size: 12px;
+    }
+
+}
+
+@media all and (max-width: 337px) {
+    #get {
+        font-size: 12px;
+    }
+    .social__title {
+        font-size: 11px;
+    }
+}
+
+@media all and (max-width: 309px) {
+    #get {
+        font-size: 10px;
+    } 
+    .ideal__title {
+        font-size: 22px;
+    }
+    .d__Valera {
+        margin-left: 17%;
+        font-size: 12px;
+    }
+    footer {
+        margin-top: 5%;
+    }
+    .store__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+
+
+
+
+
+
+
